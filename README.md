@@ -26,9 +26,11 @@ $ java -jar target/realtime-log-parser-0.0.1-SNAPSHOT.jar
 
 ## API
 
-1. http://localhost:8080/parser/start?fileName=<fileName>
+1. http://localhost:8080/parser/start?fileName=/Users/kd/logs/log.txt
 
 Starts the log parsing in new thread.
+Required Parameters:
+fileName : Name of the file 
 
 2. http://localhost:8080/parser/stop
 

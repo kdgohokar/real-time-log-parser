@@ -3,9 +3,11 @@
 The Java Spring boot application for real-time parsing of the web-server access log to get the count of the various HTTP status code.
 
 ### Prerequisites
+```
 ✔ git 2.17.2
 ✔ java 1.8.0
 ✔ Apache Maven 3.6.0
+```
 
 ## Running Locally
 ```

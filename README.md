@@ -28,9 +28,9 @@ $ java -jar target/realtime-log-parser-0.0.1-SNAPSHOT.jar
 
 1. http://localhost:8080/parser/start?fileName=/Users/kd/logs/log.txt
 
-Starts the log parsing in new thread.
-Required Parameters:
-fileName : Name of the file 
+Starts the log parsing in new thread.<br/>
+Required Parameters:<br/>
+fileName : Name of the file
 
 2. http://localhost:8080/parser/stop
 
@@ -40,4 +40,4 @@ Stops the already running log parser.
 
 Gets the count of the HTTP status code occurred in log file while parsing.
 
-Note: Please see the application logs OR console for ordered representation of the HTTP status code count.
+<b>Note:</b> Please see the application logs OR console for ordered representation of the HTTP status code count.

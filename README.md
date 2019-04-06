@@ -22,6 +22,11 @@ OR
 $ java -jar target/realtime-log-parser-0.0.1-SNAPSHOT.jar
 ```
 
+## API Documentation
+REST API documentation using Swagger-2<br/>
+
+http://localhost:8080/swagger-ui.html<br/>
+
 ## API
 
 1. http://localhost:8080/parser/start?fileName=<fileName>

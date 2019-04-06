@@ -1,7 +1,6 @@
 package com.me.logparser.api;
 
 import static com.me.logparser.common.Constants.PARSER_STARTED_RESPONSE;
-import static com.me.logparser.common.Constants.SUCCESS;
 
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;

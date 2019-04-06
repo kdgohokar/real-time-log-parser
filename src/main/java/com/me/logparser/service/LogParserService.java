@@ -18,4 +18,9 @@ public interface LogParserService {
 	 * @param fileName
 	 */
 	void parseLog(String fileName);
+	
+	/**
+	 * Stop the currently running parser if any.
+	 */
+	String stopParser();
 }
